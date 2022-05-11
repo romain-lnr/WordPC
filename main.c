@@ -125,7 +125,7 @@ void Verif(char *word, long int *nbr_word) {
                         //Gestion des accents dans la console
                         SetConsoleOutputCP(65001);
                         printf("Mots ( %d -/- %d )\n",nbr_word,88722);
-                        printf("\ncommandes :\n?)Le programme montre le lien du dictionaire en ligne\nXXXX)Retourne au menu précédent");
+                       // printf("\ncommandes :\n?)Le programme montre le lien du dictionaire en ligne\nXXXX)Retourne au menu précédent");
                         //Gestion des accents dans la console
                         SetConsoleOutputCP(437);
                         printf("\n\nMontrez-moi un mot : ");
