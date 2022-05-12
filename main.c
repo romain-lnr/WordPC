@@ -73,7 +73,7 @@ void Verif(char *word, long int *nbr_word) {
     }
      fichier = NULL;
      fichier = fopen(filename, "r"); //Ouvre le fichier dans le répertoire 'filename' et crée une permission de lecture (r)
-     char w[nbr_line][15];
+     char w[nbr_line][19];
      long int j[nbr_line];
      if (fichier != NULL) {
          for (long int i = 0; i < nbr_line; i++) {
